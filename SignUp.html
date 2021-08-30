@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           label{
+                font-family: cursive;
+                font-size: xx-large;
+                color: #012a4a;
+            }
+            form{
+                font-family: cursive;
+                font-size: large;
+                padding-left: 15px;
+                color: #012a4a;
+                font-weight: bold;
+            }
+            input{
+                background-color: #a9d6e5;
+                border-style: groove;
+                border: 2px solid;
+                border-color: #012a4a;
+                padding: 5px 5px;
+                color: #012a4a;
+                font-family: cursive;
+                font-size: medium;
+            }
+            .submit{
+                height:40px;
+                width:100px;
+                float: right;
+                background-color: #012a4a;
+                color: white;
+            }
+            .submit:hover{
+                background-color: #1490ee;
+                color: white;
+                border:3px solid #012a4a;
+            }
+            textarea{
+                height:50px;
+                width:100%;
+                background-color: #a9d6e5;
+                color: #012a4a;
+                border: 2px solid;
+                border-color: #012a4a;
+                font-family: cursive;
+                font-size: medium;
+            }
+            a:visited,a{
+                color:#1490ee;
+            }
+        </style>
+    </head>
+    <body bgcolor="a9d6e5">
+        <div width="80%">
+        <form>
+            <center><label >Create your Account</label></center><br><br>
+            <table ><tr><td>Name:</td><td><input type="text" style="width:100%;"></td></tr>
+                <tr><td >E-mail ID:</td><td width="70%"><input type="text" style="width:100%;"></td></tr>
+                <tr><td>Age:</td><td><input type="number" style="width:100%;"></td></tr>
+                <tr><td>New Password:</td><td><input type="password" style="width:100%;"></td></tr>
+                <tr><td>Re-enter New Password:</td><td><input type="password" style="width:100%;"></td></tr>
+                <tr><td>I am a</td><td ><input type="radio" name="SP">Student<br><input  type="radio" name="SP">Proffesional</td></tr>
+                <tr><td>What is your expectation?</td><td><textarea style="width:100%;" ></textarea></td></tr>
+                <tr><td colspan="2"><input type="checkbox"> I Agree to the <a href="#">Terms and Privacy</a>  of EasyLearn.com<tr height="15px"></tr>
+                <tr><td></td><td><input class="submit" type="submit" value="CREATE"></td></tr>
+        </table>
+        
+        </div>
+        
+        </form>
+        
+    </body>
+</html>

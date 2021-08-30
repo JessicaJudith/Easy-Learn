@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            label{
+                font-family: cursive;
+                font-size: xx-large;
+                color: #012a4a;
+                font-weight: bolder;
+            }
+            form{
+                font-family: cursive;
+                font-size: large;
+                padding-left: 15px;
+                color: #012a4a;
+                font-weight: bold;
+            }
+            input{
+                background-color: #a9d6e5;
+                border-style: groove;
+                border: 2px solid;
+                border-color: #012a4a;
+                padding: 5px 5px;
+                color: #012a4a;
+                font-family: cursive;
+                font-size: medium;
+            }
+            .submit{
+                height:40px;
+                width:100px;
+                float: right;
+                background-color: #012a4a;
+                color: white;
+            }
+            .submit:hover{
+                background-color: #1490ee;
+                color: white;
+                border:3px solid #012a4a;
+            }
+            textarea{
+                height:50px;
+                width:100%;
+                background-color: #a9d6e5;
+                color: #012a4a;
+                border: 2px solid;
+                border-color: #012a4a;
+                font-family: cursive;
+                font-size: medium;
+            }
+            a:visited,a{
+                color:#1490ee;
+            }
+        </style>
+    </head>
+    <body bgcolor="a9d6e5">
+        <br><br>
+        <center><label>Welcome Back!</label>
+            <br><br>
+        <form>
+            <table>
+                <tr><td>User Name:</td><td><input type="text"></td></tr>
+                <tr><td>Password:</td><td><input type="password"></td></tr>
+                <tr><td ><input type="checkbox">Remember me</td><td style="float:right"><a href="#">Forgot Password?</a></td></tr>
+                <tr height="15px"></tr>
+                <tr><td colspan="2"><input class="submit" type="submit" value="LOG IN"></td></tr>
+            </table>
+        </form>
+        </center>
+    </body>
+</html>
